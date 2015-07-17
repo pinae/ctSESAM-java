@@ -9,7 +9,7 @@ import java.security.NoSuchAlgorithmException;
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
-public class PasswordGenerator 
+public class CtSESAM 
 {
 	public static byte[] sha512HMAC(byte[] key, byte[] password) {
         try {
